@@ -1,4 +1,3 @@
 $("#submit").click(function(){
-      
-        alert ("Submitted!");
+        alert("Submitted!");
 });

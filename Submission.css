@@ -1,0 +1,6 @@
+.info {
+  display:flex;
+  padding:10px;
+  margin:20px;
+  border:10px solid black;
+}
