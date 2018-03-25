@@ -1,8 +1,29 @@
- #Content {
+ html {
+  background-color: #F2C1AE;
+  border-style: dotted;
+    border-width: 3px;
+  border-color:#A32E00;
+}
+
+#Content {
     display:flex;
     color:black;
     background-color:white;
-    justify-content: flex-end;
+}
+
+#OtherIssues {
+  width:25%;
+}
+
+#Media{
+  width:75%;
+  justify-content: center;
+}
+
+
+#comments{
+  display:flex;
+  
 }
 
 #sample1 {
@@ -16,4 +37,11 @@
     padding:10px;
     background-color: black;
     border:10px solid grey; 
+}
+
+#submitComment {
+  border: 5px #A32E00 solid; 
+  width: 100px;
+  font-family: 'Economica', sans-serif;
+  font-color:#68270D;
 }

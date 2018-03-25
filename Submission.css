@@ -1,7 +1,7 @@
 html {
   background-color: #F2C1AE;
   border-style: dotted;
-    border-width: 3px;
+  border-width: 3px;
   border-color:#A32E00;
 }
 
@@ -14,14 +14,14 @@ html {
 }
 
 .enter {
-  display:flex;
-  padding:10px;
   border: 5px #A32E00 solid; 
   margin: auto;
-font-family: 'Economica', sans-serif;
+  width: 100px;
+  font-family: 'Economica', sans-serif;
 }
 
 h1 {
   color: #A32E00;
   text-align: center;
+  font-family: 'Cabin Sketch', cursive;
 }  
