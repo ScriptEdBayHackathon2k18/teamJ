@@ -2,13 +2,15 @@ html {
   background-color: #F2C1AE;
   border-style: dotted;
     border-width: 3px;
-  
+  border-color:#A32E00;
 }
 
 #header{
   text-align: center;
   color: #A32E00;
-  text-si
+  font-size: 90px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 #sub {

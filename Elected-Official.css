@@ -5,4 +5,15 @@
     justify-content: flex-end;
 }
 
+#sample1 {
+    display:flex;
+    background-color: grey;
+    color:white;
+    justify-content: center;
+}
 
+#sample1 .item {
+    padding:10px;
+    background-color: black;
+    border:10px solid grey; 
+}

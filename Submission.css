@@ -1,18 +1,27 @@
+html {
+  background-color: #F2C1AE;
+  border-style: dotted;
+    border-width: 3px;
+  border-color:#A32E00;
+}
+
 .info {
   display:flex;
   padding:20px;
-  margin:20px;
+  margin:20px auto;
   border:5px solid white;
-  width: 100%;
-  background-color: #F2C1AE;
+  width: 60%;
 }
 
-#button {
+.enter {
   display:flex;
-  padding:50px;
-  border: 10px orange solid; 
+  padding:10px;
+  border: 5px #A32E00 solid; 
+  margin: auto;
+font-family: 'Economica', sans-serif;
 }
 
 h1 {
-   color: #A32E00
-}
+  color: #A32E00;
+  text-align: center;
+}  
