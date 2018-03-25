@@ -17,6 +17,7 @@ html {
 #sub {
   text-align: center;
   font-style: italic;
+  font-size: 30px;
 }
 
 #picture{
@@ -37,8 +38,7 @@ html {
   border: 5px #A32E00 solid;
   display: flex;
   padding: 10px;
-  font-size: 15px;
-  font-family: 'Roboto Condensed', sans-serif;
-
+  font-size: 20px;
+  font-family: 'Economica', sans-serif;
 }
 

@@ -9,8 +9,9 @@ html {
   display:flex;
   padding:20px;
   margin:20px auto;
-  border:5px solid #A32E00;
+  border:2px solid #A32E00;
   width: 60%;
+  font-size:25px;
 }
 
 .enter {
@@ -18,12 +19,14 @@ html {
   width: 100px;
   font-family: 'Economica', sans-serif;
   margin-bottom: 180px;
+  font-size: 30px;
 }
 
 h1 {
   color: #A32E00;
   text-align: center;
   font-family: 'Cabin Sketch', cursive;
+  font-size: 60px;
 }  
 
 #submission {

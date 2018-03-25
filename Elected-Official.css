@@ -9,6 +9,7 @@
     display:flex;
     color:black;
     background-color:white;
+  justify-content: space-between;
 }
 
 #OtherIssues {
@@ -16,8 +17,7 @@
 }
 
 #Media{
-  display: flex;
-  justify-content:;
+  
   width:75%;
   
 }
@@ -50,4 +50,19 @@
 
 .img-circle {
     border-radius: 50%;
+    width:50px;
+  height:50px;
+}
+
+#header {
+  text-align: center;
+  color: #A32E00;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+#Video {
+  width:100%;
 }
