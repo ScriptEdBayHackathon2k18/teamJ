@@ -16,7 +16,8 @@ Top of the page is the headline using h3
 - Input the message individually 
 - Videos are on YouTube. 
 
-- Story : Letting the youth speak the 
+
+- Story : Letting the youth speak the truth 
 
 
 
