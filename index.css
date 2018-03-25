@@ -1,4 +1,9 @@
-h1{
+#header{
   text-align: center;
   color: red;
+}
+
+#picture{
+  height: 500px;
+  width: 700px;
 }
