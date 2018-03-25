@@ -34,6 +34,11 @@ html {
 
 .oneButton {
   margin:auto;
-  m
+  border: 5px #A32E00 solid;
+  display: flex;
+  padding: 10px;
+  font-size: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+
 }
 

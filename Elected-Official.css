@@ -42,6 +42,21 @@
 #submitComment {
   border: 5px #A32E00 solid; 
   width: 100px;
-  font-family: 'Economica', sans-serif;
-  font-color:#68270D;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.comment{
+  display:flex;
+}
+
+.commenttext {
+  width:75%;
+}
+
+.commentpic{
+  width:25%;
+}
+
+.img-circle {
+    border-radius: 50%;
 }
