@@ -9,16 +9,15 @@ html {
   display:flex;
   padding:20px;
   margin:20px auto;
-  border:5px solid white;
+  border:5px solid #A32E00;
   width: 60%;
 }
 
 .enter {
-  display:flex;
-  justify-content: center;
   border: 5px #A32E00 solid; 
   width: 100px;
   font-family: 'Economica', sans-serif;
+  margin-bottom: 180px;
 }
 
 h1 {
@@ -26,4 +25,10 @@ h1 {
   text-align: center;
   font-family: 'Cabin Sketch', cursive;
 }  
+
+#submission {
+  display:flex;
+  justify-content:center;
+}
+
 
