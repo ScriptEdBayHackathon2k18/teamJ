@@ -1,70 +1,69 @@
 <html>
   <head>
     <title>Elected Official Alert </title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Your CSS Linked Below-->
-    <link rel="stylesheet" href="/Elected-Official.css">
-    <!-- jQuery Linked Below-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Your Javascript Linked Below-->
-    <script src="/script.js" defer></script>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="/Elected-Official.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="/elected.js" defer></script>
+      <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500" rel="stylesheet">  
+      <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
   </head>
-  <body>
-    <h1 id="header">ICA Cristo Rey VS Gun Violence</h1>
-    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+    <body>
+      <h1 id="header">ICA Cristo Rey VS Gun Violence</h1>
+
       <div id= "Content" >
-         <div id="OtherIssues">
-           Other Issues 
-          <ul>
-            <li> Lack of Resources</li>
-            <li>Less Arts</li>
-            <li> School Security</li>
-          </ul>
+        <div id="OtherIssues">
+            Other Issues
+            <ul>
+                <li> Lack of Resources</li>
+                <li>Less Arts</li>
+                <li> School Security</li>
+            </ul>
+          <div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=ICA Cristo Rey&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.mapouter{overflow:hidden;height:500px;width:600px;}.gmap_canvas {background:none!important;height:500px;width:600px;}</style></div>
         </div>
         
       <div id="Media">
-
-<iframe id= "Video" width="560" height="315" src="https://www.youtube.com/embed/UvzJcqyg_jo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-           <p> 
-        Schools Message
-           </p> 
-        
-      <div id= "comments">
-
-        <div class= "comment">
-          <div class= "Commentpic">
-            <img class= "img-circle" src= "https://2d3z3x4e2xrx130kvm2hxdsp-wpengine.netdna-ssl.com/wp-content/uploads/2013/07/erica_ito_modeling-actor_headshot-1024x819.jpg">
+        <iframe id="Video" width="560" height="315" src="https://www.youtube.com/embed/PihiiIGWhFY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>   
+          <p id="SchoolMessage">
+              School's Message: ICA is an all-girls school in San Francisco California’s Mission District. We are extremely appalled by all of the horrific events that 
+              have taken place recently due to poor gun control laws and people in government willingly disregarding the tragic shootings that have taken place in 
+              schools. Schools should house environments of learning and fun, not violence. Together, we implore Nancy Pelosi to endorse stricter gun control. We 
+              understand that the process towards harsher gun control will be a cumbersome one, but this is a pivotal issue that must be tackled.
+          </p> 
+          <p id="CommentTitle">
+            Comments:  
+          </p>
+          <div id= "comments">
+              <div class= "comment">
+                <div class= "Commentpic">
+                  <img class= "img-circle" src= "https://i.pinimg.com/736x/7c/50/cb/7c50cb56fff99402d46672634d4a01d7--pretty-face-hair-growth.jpg">
+                </div>
+              <div class= "commenttext">
+                  <p id="commment1">
+                    This issue needs to be addressed!!!
+                  </p>
+              </div>
+            </div>
+            <div class= "comment">
+              <div class= "Commentpic">
+                <img class= "img-circle" src= "http://4.bp.blogspot.com/-NOYppoNXnoA/Vl0BnGtXEFI/AAAAAAABU1s/fanK3tscSYA/s1600/Actor%2Bheadshots_kids_teens_232.jpg">
+              </div>
+              <div class= "commenttext">
+                <p id="commment2">
+                Wow this happened in my city too!!!
+                </p>
+              </div>
+            </div>
           </div>
-          <div class= "commenttext">
-            <p id="commment2">
-            This issue needs to be addressed!!!
-            </p>
-            
-            <div class= "Commentpic">
-            <img class= "img-circle" src= "data:image/jpeg;base64,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">
-          <div class="commenttext">
-            <p id="commment2">
-            Wow this was in my town!!!
-            </p>
-          </div>
-          
-        
+            <textarea  rows="10" cols="40" id="commentBox" placeholder="Comment here..."></textarea>
+            <button id="submitComment">
+                 Submit 
+            </button>
         </div>
-        
-       
-        
       </div>
-          
-          <textarea  rows="10" cols="40" id="commentBox" placeholder="Comment here..."></textarea>
-          <button id="submitComment">
-             Submit 
-          </button>
-        </div>
-    </div>
-    
-       
-    
   </body>
-</html>-
+</html>

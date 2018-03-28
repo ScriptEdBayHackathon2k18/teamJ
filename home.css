@@ -1,7 +1,7 @@
 html {
   background-color: #F2C1AE;
   border-style: dotted;
-    border-width: 3px;
+  border-width: 3px;
   border-color:#A32E00;
 }
 
@@ -17,28 +17,42 @@ html {
 #sub {
   text-align: center;
   font-style: italic;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 #picture{
   height: 500px;
-  width: 900px;
+  width: 700px;
   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 180px;
   border-style: solid;
-    border-width: 5px;
+  border-width: 5px;
   border-color: #A32E00;
   
 }
 
+#photos {
+  display:block; 
+  padding-bottom: 15px;
+}
+
 .oneButton {
+  display:flex;
+  margin-top: 50px;
   margin:auto;
-  border: 5px #A32E00 solid;
-  display: flex;
+  justify-content:center;
+  background-color: #ED9E80 ;
   padding: 10px;
-  font-size: 20px;
+  font-size: 40px;
   font-family: 'Economica', sans-serif;
+  font-weight:bold;
+}
+
+img {
+  width:700px;
+  height: 500px;
+  
 }
 

@@ -15,7 +15,7 @@ html {
 }
 
 .enter {
-  border: 5px #A32E00 solid; 
+  background-color: #ED9E80; 
   width: 150px;
   font-family: 'Economica', sans-serif;
   margin-bottom: 180px;
